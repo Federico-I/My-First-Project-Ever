@@ -1,0 +1,194 @@
+/*-------------------Body------------------------------------------------------------------*/
+
+body {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 220px;
+    aspect-ratio:  220 / 220;
+    height: 220px;
+    border-radius: 100px;
+}
+
+h1 p {
+    text-align: center;
+}
+
+/*-----------------Bar Menu-Link--------------------------------------------------------------------*/
+
+header {
+    background-color: #172035;
+    width: 100%;
+    height: 65px;
+}
+
+.nav-menu {
+    width: 100%;
+    height: 65px;
+    display: inline;
+    padding-top: 23px;
+    padding-bottom: 25px;
+}
+
+.logo {
+    width: 100%;
+    font-size: 40px;
+    margin: 0px;
+    padding-top: 25px;
+    padding-left: 15px;
+    color: rgb(193, 193, 226);
+}
+
+.link {
+    border: none;
+    padding: 25px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav > .link:hover {
+    background-color: lightslategray;
+    color: aliceblue;
+}
+
+.galaxy {
+    border: none;
+    padding-top: 20px;
+    padding-right: 35px;
+    text-decoration: none;
+    color: darkorange;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float:right;
+}
+
+.galaxy:hover {
+    color: lightgreen;
+}
+
+/*--------Body-Main-Sections-----------------------------------------------------------------------------*/
+
+.body-main {
+    display: block;
+    background-image: url(https://wallpaper.dog/large/10828253.jpg);
+    margin: 0 0 0 0;
+    padding-bottom: 0px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subtitle {
+    margin-top: 0px;
+    padding-top: 50px;
+    color: red;
+    text-align: center;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section-start {
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+.section {
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.section-end {
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+/*--------Images-Contet-styles-----------------------------------------------------------------------------*/
+
+
+.section-start-img {
+    margin-top: 0px;
+    padding-top: 45px;
+}
+
+.carl {
+    text-decoration: none;
+    text-align: center;font-size: 35px;
+    color: rgb(0, 255, 242);
+}
+
+.carl:hover {
+    color:greenyellow;
+}
+
+.end-extra {
+    width: 100%;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.back {
+    border: none;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    text-decoration: none;
+    color: darkorange;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+
+}
+
+.back:hover {
+    color: lightgreen;
+}
+
+.travel {
+    border: none;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: rgb(252, 248, 47);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float:right;
+
+}
+
+.travel:hover {
+    color: rgb(0, 172, 252);
+}
+
+/*--------Footer-----------------------------------------------------------------------------*/
+
+footer {
+    width: 100%;
+    height: 44px;
+    background-color: #172035;
+    color:lightsalmon;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.f-p {
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+/*-------------------------------------------------------------------------------------*/
