@@ -89,7 +89,7 @@ nav > .link:hover {
 
 .subtitle {
     margin-top: 0px;
-    padding-top: 50px;
+    padding-top: 200px;
     color: red;
     text-align: center;
     font-size: 40px;
@@ -100,20 +100,20 @@ nav > .link:hover {
     display: block;
     text-align: center;
     margin-top: 0px;
-    padding-top: 20px;
+    padding-top: 400px;
 }
 
 .section {
     display: block;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 200px;
+    padding-bottom: 0px;
 }
 
 .section-end {
     display: block;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 0px;
 }
 
@@ -128,13 +128,16 @@ nav > .link:hover {
 .carl {
     padding-top: 450px;
     padding-bottom: 450px;
+}
+
+.carlMargin {
     text-decoration: none;
     text-align: center;
     font-size: 35px;
     color: rgb(0, 255, 242);
 }
 
-.carl:hover {
+.carlMargin:hover {
     color:greenyellow;
 }
 
